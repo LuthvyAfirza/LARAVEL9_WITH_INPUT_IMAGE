@@ -22,9 +22,9 @@
                 </form>
             </div>
         </div>
-    <h2 style="position: relative; left: 428px; top: 8px;">Input Data Produk</h2>
-    <form action="/produk/store" method="POST" enctype="multipart/form-data" style=" margin-top: 60px; margin-left: 135px;">
-        @csrf
+    <form action="/produk/store" method="POST" enctype="multipart/form-data" style=" margin-top: 80px; margin-left: 135px;">
+        <h2>Input Data Produk</h2>    
+        @csrf   
     <div class="mb-3">
         <label>Judul Produk</label>
         <input type="text" name="judulProduk" placeholder="Masukkan judul produk" class="form-control"required>

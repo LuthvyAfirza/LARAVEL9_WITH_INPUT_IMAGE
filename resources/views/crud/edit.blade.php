@@ -22,11 +22,9 @@
             </form>
         </div>
     </div>
-
-    <h2 style="margin-left: 400px; margin-top: 30px;">Edit Data Pelanggan</h2>
-    
-    <form action="/produk/{{ $produk->id }}/proses" method="POST" enctype="multipart/form-data"  style=" margin-top: 85px; margin-left: -300px;">
+    <form action="/produk/{{ $produk->id }}/proses" method="POST" enctype="multipart/form-data"  style=" margin-top: 25px; margin-left: 20px;">
         @csrf
+        <h2>Edit Data Produk</h2>
         <label>Nama</label><br>
         <input type="text" name="judulProduk" class="form-control" value="{{ $produk->judulProduk }}" required><br>
 
