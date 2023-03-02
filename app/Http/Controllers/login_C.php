@@ -66,3 +66,4 @@ class login_C extends Controller
     return redirect('/');
 }
 }
+?>
